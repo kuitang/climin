@@ -1,5 +1,6 @@
 climin
 ------
+KT fork 4 May 2015: Minor syntactical changes to work with Python 3.
 
 climin is a Python package for optimization, heavily biased to machine learning
 scenarios distributed under the BSD 3-clause license. It works on top of numpy
@@ -27,6 +28,7 @@ Dependencies
 The software is tested under Python 2.7 with numpy 1.8, scipy 0.13. The tests
 are run with nosetests.
 
+KT fork 4 May 2015: Works with Python 3.3 on anaconda (details later...)
 
 Installation
 ------------

@@ -4,9 +4,10 @@
 
 
 
-import mathadapt as ma
+#from . import mathadapt as ma
+import numpy as ma # Kui's hacky fix.
 
-from base import Minimizer
+from .base import Minimizer
 
 
 class Rprop(Minimizer):
